@@ -1,1 +1,1 @@
-# Portfolio
+I done this website using databases in Mysql.There 2 files named portfolio.sql and user_authentication.sql. Those are the databases that i used for my website. So you can open those files using phpMyadmin and see how my websites functionalities are work.
