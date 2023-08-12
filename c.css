@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    z-index: 999;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 200px;
+}
+
+/* Sidebar styles */
+aside {
+  width: 250px;
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+.form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  align-items: center;
+}
+
+.form-box input[type="email"],
+.form-box input[type="tel"],
+.form-box input[type="text"],
+.form-box input[type="submit"] {
+  display: block;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-box button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #45a049;
+}
+
+  
+  
+  
+  
